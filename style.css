@@ -1,0 +1,90 @@
+/* Import Font */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=Inter:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Archivo", sans-serif !important;
+}
+
+/* Header */
+.logo {
+  width: 5.5rem;
+  margin: 1rem 0rem 0rem 1rem;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+.descriptionsHeader {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  justify-content: space-between;
+}
+.buttonOrcament {
+  width: 11rem;
+  background-color: #3f3d56;
+  color: #f9d726;
+  margin-right: 5vw;
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.my-element {
+  width: 12rem;
+  height: 14rem;
+  clip-path: circle(70% at 80% 30%);
+  background-color: #f9d726;
+  margin-top: -8rem;
+  z-index: -1;
+}
+.textsYellow {
+  color: #f9d726;
+}
+
+/* Section One */
+
+.mainSectionOne {
+  margin-left: 2rem;
+}
+.mainSectionOne h3 {
+  font-size: 2rem;
+}
+.yourSite {
+  font-weight: 600;
+  /* font-family: 'Archivo', sans-serif; */
+  font-size: 5.5rem;
+}
+.buttonOrcamentSectionOne {
+  margin-top: 1rem;
+  width: 15rem;
+  /* background-color: #3F3D56; */
+  background-color: #f9d726;
+  color: #3f3d56;
+  margin-right: 5vw;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.section-two {
+  height: 60vh;
+}
+.spacingFuncoes {
+  gap: 6rem;
+}
