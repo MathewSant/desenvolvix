@@ -33,7 +33,9 @@
         <a href="./index.html">
           <img class="logo" src="./images/logoVector.png" alt="" />
         </a>
-        <button class="buttonOrcament">Faça um orçamento</button>
+        <a href="#contact"
+          ><button class="buttonOrcament">Faça um orçamento</button></a
+        >
       </div>
       <div class="d-flex justify-content-end">
         <div class="my-element"></div>
@@ -45,7 +47,9 @@
         <main class="mainSectionOne">
           <h1 class="textsYellow yourSite">O Seu Site</h1>
           <h3>do jeito que você quer!</h3>
-          <button class="buttonOrcamentSectionOne">Faça um orçamento</button>
+          <a href="#contact">
+            <button class="buttonOrcamentSectionOne">Faça um orçamento</button>
+          </a>
         </main>
         <svg
           width="825"
@@ -84,38 +88,78 @@
       <div class="d-flex justify-content-center w-100">
         <article class="d-flex spacingFuncoes">
           <div style="margin-left: 3rem">
-            <h3>Design Responsivo e Moderno</h3>
-            <p>
+            <h2 class="titleFuncoes">Design Responsivo e Moderno</h2>
+            <p class="paragraphFuncoes">
               Nossos sites têm um design moderno e se adaptam a qualquer
               dispositivo, proporcionando uma experiência envolvente em
               smartphones, tablets e desktops.
             </p>
+            <img src="./images/undraw_Reminder_re_fe15 1.svg" alt="" />
           </div>
           <div>
-            <h3>Otimização de SEO e Desempenho</h3>
-            <p>
+            <h2 class="titleFuncoes">Otimização de SEO e Desempenho</h2>
+            <p class="paragraphFuncoes">
               Destaque-se nos resultados de busca com nossas técnicas avançadas
               de otimização de SEO. Garantimos que seu site carregue rapidamente
               e ofereça uma navegação suave para os visitantes.
             </p>
+            <img src="./images/Vector.svg" alt="" />
           </div>
-          <div style="max-width: 20rem; max-width: 20rem; margin-right: 1rem">
-            <h3>Funções Personalizadas e Suporte Contínuo</h3>
-            <p>
+          <div style="max-width: 23rem; margin-right: 1rem">
+            <h2 class="titleFuncoes">
+              Funções Personalizadas e Suporte Contínuo
+            </h2>
+            <p class="paragraphFuncoes">
               Criamos funcionalidades exclusivas de acordo com suas
               necessidades. Além disso, estamos aqui para oferecer suporte
               contínuo, garantindo que seu site esteja sempre funcionando e
               evoluindo conforme sua empresa cresce.
             </p>
+            <img src="./images/undraw_Reminder_re_fe15 1.svg" alt="" />
           </div>
         </article>
       </div>
     </section>
+
+    <!--Section Three  -->
+    <section class="d-flex align-items-center" style="height: 100vh">
+      <div class="w-100 d-flex justify-content-center">
+        <div id="contact" class="containerFormContact d-flex flex-column">
+          <h3>Entre em contato conosco!</h3>
+          <form method="post" action="">
+            <div class="d-flex flex-column mb-2 mt-3">
+              <label for="emailContact">Email:</label>
+              <input
+                class="inputFormContact"
+                type="email"
+                placeholder="exemplo@email.com"
+                id="emailContact"
+                required
+              />
+            </div>
+            <div class="d-flex flex-column mb-3">
+              <label for="telContact">Telefone:</label>
+              <input
+                class="inputFormContact"
+                type="tel"
+                id="telContact"
+                placeholder="(XX) XXXX-XXXX"
+                required
+              />
+            </div>
+            <input class="submitFormContact" type="submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap Script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
